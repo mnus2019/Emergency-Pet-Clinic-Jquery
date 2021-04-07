@@ -1,0 +1,37 @@
+<div class="pet-item col media py-3"
+  data-id="id">
+  <div class="mr-3">
+    <button class="pet-delete btn btn-sm btn-danger">
+    <i class="fas fa-times"></i></button>
+  </div><!-- media-left -->
+
+  <div class="pet-info media-body">
+
+    <div class="pet-head d-flex">
+      <span class="label-item" ></span>
+      <span class="pet-name"
+        contenteditable="true"
+        data-content="petName"
+        data-field="petName"></span>
+
+      <span class="apt-date text-success ml-auto"
+        data-format="formatDate" data-content="aptDate"></span>
+
+    </div><!-- pet-head -->
+
+    <div class="owner-name text-success">
+      <span class="label-item">ownerName:</span>
+
+      <span contenteditable="true"
+        data-content="ownerName"
+        data-field="ownerName" class="ownerName"></span>
+
+    </div>
+ 
+    <div class="apt-notes text-success"
+      contenteditable="true"
+      data-content="aptNotes"
+      data-field="aptNotes"></div>
+
+  </div><!-- pet-info -->
+</div><!-- pet-item -->

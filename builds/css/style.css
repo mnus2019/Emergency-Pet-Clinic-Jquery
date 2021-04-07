@@ -1,0 +1,33 @@
+.pet-name{
+    color: rgb(19, 102, 218);
+    font-size: large;
+    font-weight: 700;
+}
+
+.displayBar{
+    display:none;
+}
+
+.pet-item{
+    background-image: url("../img/petdoc.jpg" ); 
+    padding-top: 10px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom;
+    background-size: cover;
+    z-index: 0;
+    opacity: 45;
+   
+}
+
+.card-body{
+    background-image: url("../img/hospital.jpg" ); 
+    padding-top: 10px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover;
+    z-index: 0;
+    opacity: 100;
+   
+}
